@@ -6,7 +6,7 @@ use Http\Adapter\Guzzle6\Client as GuzzleClient;
 use Github\HttpClient\Builder;
 use Github\HttpClient\Message\ResponseMediator;
 
-$TOKEN="4647dca4665aa4f3b3c557c7d5f2313e4c92eb02";
+$TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 # Parameters
 $DRONE_SERVER="https://drone.fpfis.eu";
