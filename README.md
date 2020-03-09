@@ -14,6 +14,13 @@ composer install
 
 ## Usage
 
+Define github token
+
+```
+read -s GITHUB_TOKEN
+export GITHUB_TOKEN
+```
+
 Edit variable $REPOS in makeRequest.php and execute the script:
 
 ```
