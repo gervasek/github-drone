@@ -2,7 +2,7 @@
 
 trigger drone build using github webhook.
 
-Can be use on tags or branch.
+Can be used on tags or branch.
 
 ## Installation
 
