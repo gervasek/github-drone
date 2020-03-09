@@ -27,7 +27,7 @@ Edit variable $REPOS in makeRequest.php and execute the script:
 php makeRequest.php
 ```
 
-## Example
+## Examples
 
 Trigger build on a tag, commit is retrieved automatically:
 ```
