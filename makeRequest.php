@@ -58,7 +58,7 @@ foreach ($REPOS as $ID => $VALUE){
         if (isset($commits[0]) && isset($commits[0]['sha'])){
           $COMMIT = $commits[0]['sha'];
         }
-
+      }
 
       # Set sender information
       $response = $github->getHttpClient()->get("user");
@@ -103,7 +103,7 @@ foreach ($REPOS as $ID => $VALUE){
       }
 
       # Send to drone
-      print_r("Sent request for $REPO...");
+      print_r("Sent request for $REPO...\n");
       $response = $b->getHttpClient()->post($hook['config']["url"], $REQUEST_HEADER, json_encode($DATAS));
       $resp = ResponseMediator::getContent($response);
       print_r($resp);
