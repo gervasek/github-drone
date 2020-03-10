@@ -2,7 +2,7 @@
 
 trigger drone build using github webhook.
 
-Can be use on tags or branch.
+Can be used on tags or branch.
 
 ## Installation
 
@@ -14,13 +14,20 @@ composer install
 
 ## Usage
 
+Define github token
+
+```
+read -s GITHUB_TOKEN
+export GITHUB_TOKEN
+```
+
 Edit variable $REPOS in makeRequest.php and execute the script:
 
 ```
 php makeRequest.php
 ```
 
-## Example
+## Examples
 
 Trigger build on a tag, commit is retrieved automatically:
 ```
